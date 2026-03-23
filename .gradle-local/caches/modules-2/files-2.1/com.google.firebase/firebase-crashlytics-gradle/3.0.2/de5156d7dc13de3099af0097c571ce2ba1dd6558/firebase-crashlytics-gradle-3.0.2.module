@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.firebase",
+    "module": "firebase-crashlytics-gradle",
+    "version": "3.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-crashlytics-gradle-3.0.2.jar",
+          "url": "firebase-crashlytics-gradle-3.0.2.jar",
+          "size": 3604868,
+          "sha512": "38f060b898c9527dcd3d7a8121c5a9a98567397e9ada9d71fd245d38ce2e3a9b1381b78cfb1bf68672afd5c31c7ad4a50bead4731c498736ab35ef972ff970fa",
+          "sha256": "a869a5234fe65689e26d1158405aba7f7f2bc0f36b41d67ddf8fca28423926a8",
+          "sha1": "3182b73d85ebf2bad7ac117240a11a886dd7168c",
+          "md5": "88353b3518fd01d3a2f26cd51bf910e7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.firebase",
+          "module": "firebase-crashlytics-buildtools",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "firebase-crashlytics-gradle-3.0.2.jar",
+          "url": "firebase-crashlytics-gradle-3.0.2.jar",
+          "size": 3604868,
+          "sha512": "38f060b898c9527dcd3d7a8121c5a9a98567397e9ada9d71fd245d38ce2e3a9b1381b78cfb1bf68672afd5c31c7ad4a50bead4731c498736ab35ef972ff970fa",
+          "sha256": "a869a5234fe65689e26d1158405aba7f7f2bc0f36b41d67ddf8fca28423926a8",
+          "sha1": "3182b73d85ebf2bad7ac117240a11a886dd7168c",
+          "md5": "88353b3518fd01d3a2f26cd51bf910e7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "firebase-crashlytics-gradle-3.0.2-sources.jar",
+          "url": "firebase-crashlytics-gradle-3.0.2-sources.jar",
+          "size": 2290,
+          "sha512": "bf06146c2c12e0f0013518c73fac2e0f776d733afaa42c61197251bd281eb056a776aa1cf0c019fb3c44ea2da3dde9287c1856e7c2dd161588cb8a1c22eb52b1",
+          "sha256": "6c32077ec682963cab80341174a04dbd45f88080e68b9c5add3a23c047d83522",
+          "sha1": "520349ee9332e8ab8143f4a97ac96adfdeff6f4f",
+          "md5": "d36d1160f72d86b15f7c24f9ef808370"
+        }
+      ]
+    }
+  ]
+}
